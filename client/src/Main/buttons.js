@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   extrathree: {
     margin: "5px",
   },
-  link :{
+  link: {
     textDecoration: "none"
   }
 }));
