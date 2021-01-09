@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   margin: {
-    width: 155,
+  
     height: 41,
     boxShadow: "2px",
     borderRadius: 30,
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
   },
   extrathree: {
-    margin: "15px",
+    margin: "5px",
   },
 }));
 
@@ -57,7 +57,7 @@ const Buttons = (props) => {
               <Link to={`/praise/${props.id}`}>
                 <Button
                   variant="contained"
-                  size="medium"
+                  size="small"
                   color="primary"
                   className={classes.margin}
                 >
@@ -74,7 +74,7 @@ const Buttons = (props) => {
               <Link to={`/highfive/${props.id}`}>
                 <Button
                   variant="contained"
-                  size="medium"
+                  size="small"
                   color="primary"
                   className={classes.margin}
                 >
