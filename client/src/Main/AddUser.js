@@ -18,7 +18,7 @@ const AddUser = () => {
     formData.append("name", newUser.name);
 
     axios
-      .post("http://localhost:5000/users/add/", formData)
+      .post("/users/add/", formData)
       .then((res) => {
         console.log(res);
       })
