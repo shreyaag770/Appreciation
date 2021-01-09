@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 const path = require("path");
 
 const app = express();
-// require('dotenv').config();
+const dotenv = require('dotenv');
+dotenv.config();
 
 const port = process.env.PORT || 5000;
 
@@ -14,8 +15,7 @@ app.use(express.static(path.join(__dirname, "images")));
 
 // const uri = process.env.ATLAS_URI;
 mongoose.connect(
-  "mongodb+srv://Shreya:shreya@cluster0.4yhlx.mongodb.net/finalAsilverse?retryWrites=true&w=majority"
-);
+ process.env.MONGODB_URI );
 
 const connection = mongoose.connection;
 connection.once("open", () => {
@@ -25,6 +25,11 @@ connection.once("open", () => {
 const userRouter = require("./routes/user");
 app.use("/users", userRouter);
 
+if(process.env.NODE_ENV === 'production')
+{
+  app.use(express.static('client/build'))
+}
+
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Your port is ${process.env.PORT}`);
 });
