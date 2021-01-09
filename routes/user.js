@@ -96,4 +96,13 @@ router.put("/praise/:id", async (req, res) => {
   }
 });
 
+router.get("/displaySearch/:searchKey", (req, res) => {
+  const searchKey = req.params.searchKey
+  var regex = new RegExp(searchKey);
+  User.find({name: regex}, function (err, data) {
+    if (err) res.send(err);
+      res.send(data);
+  });
+});
+
 module.exports = router;
