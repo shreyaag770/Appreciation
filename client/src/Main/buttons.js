@@ -57,7 +57,7 @@ const Buttons = (props) => {
         <CardActionArea>
           <CardContent className={classes.extra}>
             <div>
-              <Link to={`/praise/${props.id}`} className{classes.link} >
+              <Link to={`/praise/${props.id}`} className={classes.link} >
                 <Button
                   variant="contained"
                   size="small"
@@ -74,7 +74,7 @@ const Buttons = (props) => {
               </Link>
             </div>
             <div>
-              <Link to={`/highfive/${props.id}`} className{classes.link} >
+              <Link to={`/highfive/${props.id}`} className={classes.link} >
                 <Button
                   variant="contained"
                   size="small"
