@@ -1,0 +1,349 @@
+
+ 
+  .firstHeading {
+    display: flex;
+    /* margin: auto; */
+    position: absolute;
+    width: 586px;
+    height: 126px;
+    margin-left: 172px;
+    /* margin-top: 10px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    /* line-height: 60px; */
+    color: #000000
+  }
+
+  @media (min-width: 1281px) {
+    .heading{
+      display: flex;
+    /* margin: auto; */
+    position: absolute;
+    width: 586px;
+    height: 126px;
+    margin-left: 0px;
+    margin-top: -115px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    /* line-height: 60px; */
+    color: #000000
+
+    }
+  
+  .firstHeading {
+    display: flex;
+    /* margin: auto; */
+    position: absolute;
+    width: 586px;
+    height: 126px;
+    margin-left:8px;
+    margin-top: -60px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    /* line-height: 60px; */
+    color: #000000
+  
+  
+}
+.extra {
+  margin: 8px
+}
+.extratwo {
+  margin: 8px;
+  color: red
+}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .heading{
+    display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  margin-left: -8px;
+  margin-top:-100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  /* line-height: 60px; */
+  color: #000000
+
+  }
+
+.firstHeading {
+  display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  margin-left:0px;
+  margin-top: -60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size:30px;
+  /* line-height: 60px; */
+  color: #000000
+
+
+}
+.extra {
+margin: 6px
+}
+.extratwo {
+margin: 6px;
+color: red
+}
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    
+  .heading{
+    display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  margin-left: -6px;
+  margin-top: -80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 20px;
+  /* line-height: 60px; */
+  color: #000000
+
+  }
+
+.firstHeading {
+  display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  margin-left:-3px;
+  margin-top: -40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size:20px;
+  /* line-height: 60px; */
+  color: #000000
+
+
+}
+.extra {
+margin: 4px
+}
+.extratwo {
+margin: 4px;
+color: red
+}
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .heading{
+    display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  margin-left: -6px;
+  margin-top: -80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight:80;
+  font-size: 20px;
+  /* line-height: 60px; */
+  color: #000000
+
+  }
+
+.firstHeading {
+  display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  margin-left:-3px;
+  margin-top: -40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size:20px;
+  /* line-height: 60px; */
+  color: #000000
+
+
+}
+.extra {
+margin: 4px
+}
+.extratwo {
+margin: 4px;
+color: red
+}
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+   
+  .heading{
+    display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  margin-left: -6px;
+  margin-top: -70px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 15px;
+  /* line-height: 60px; */
+  color: #000000
+
+  }
+
+.firstHeading {
+  display: flex;
+  /* margin: auto; */
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  margin-left:-3px;
+  margin-top: -40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size:15px;
+  /* line-height: 60px; */
+  color: #000000
+
+
+}
+.extra {
+margin: 4px
+}
+.extratwo {
+margin: 4px;
+color: red
+}
+  
+}
+
+@media (min-width: 1281px){
+  .companyone {
+    position: absolute;
+    left: 333px;
+    position: absolute;
+    width: 229px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.94px;
+    line-height: 45px;
+    letter-spacing: -0.512518px;
+    color: #0085FF
+  }
+
+  .company {
+    position: absolute;
+    left: 191px;
+    position: absolute;
+    width: 229px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.94px;
+    line-height: 47px;
+    letter-spacing: 1;
+    color: black
+  }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 1280px){
+  .companyone {
+    position: absolute;
+    left: 230px;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.94px;
+    line-height: 45px;
+    letter-spacing: -0.512518px;
+    color: #0085FF
+  }
+
+  .company {
+    position: absolute;
+    left: 100px;
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.94px;
+    line-height: 47px;
+    letter-spacing: 1;
+    color: black
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+  .companyone {
+    margin-top: -20px;
+    position: absolute;
+    left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.94px;
+    line-height: 45px;
+    letter-spacing: -0.512518px;
+    color: #0085FF
+  }
+
+  .company {
+    margin-top: -20px;
+    position: absolute;
+    left: 50px;
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.94px;
+    line-height: 47px;
+    letter-spacing: 1;
+    color: black
+  }
+
+}
